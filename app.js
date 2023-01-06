@@ -15,3 +15,12 @@ const to_do = [
     'Comprar entradas para el cine',
 ]
 
+var string = "";
+for (var i = 0; i < to_do.length; i++) {
+	
+	string = '<input type="checkbox" name="chk'+i+'"><label>'+to_do[i]+'</label>';
+	
+}
+var div = document.getElementById("div_container");
+
+console.log(string);
